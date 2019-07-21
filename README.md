@@ -2,16 +2,12 @@ netRewireAnalyze: A package implementing rewiring models and summary metrics on 
 =================================
 
 
-<img align="left" src="./notebookTutorials/lgn2V1.png" width="820"/>
+<img align="left" src="./lgn2V1.png" width="850"/>
 
 
 **Left** _Schematic anatomical connections of the lateral geniculate nucleus (LGN) and primary visual cortex processing the visual input_
 
 **Right** _Network representation of the anatomical connections with the numbers indicating the strengths of the connection_
-
-<img align="center" src="./images/output_9_0.png" />
-
-_Adjacency matrices after 4000 rewirings on an initially randomly connected network. The rewirings are based on the heat diffusion algorithm, the first two adjacency matrices have binary connections (either 0 or 1) and the latter two normally distributed weights. The final connectivity pattern can vary depending on the value of the heat diffusion rate parameter_
 
 
 I wrote this package while working on a project on adaptive rewiring and learning. The culmination of this effort is a paper that is currently under review (_Adaptive rewiring based on diffusion balances stability and plasticity in weighted networks while evolving ‘brain-like’ structure._ Ilias Rentzeperis, Cees van Leeuwen). My goal was to dig deeper on the rewiring methods and metrics used to characterize the connectivity of the matrices.
@@ -24,6 +20,10 @@ This package contains modules that implement the following:
 - [Evolution to a small-world network with chaotic units](https://www.researchgate.net/publication/231032445_Evolution_to_a_small-world_network_with_chaotic_units) 
 - **Partially randomized rewiring:** starting with a regular ring lattice you go through all the connections and with probability p you cut the connection and assign it randomly to any node. Seminal work on small world networks by Watts and Strogatz.
 - [Collective dynamics of ‘small-world’ networks](https://www.nature.com/articles/30918)         
+
+<img align="center" src="./heatDiffusionAdj.png" />
+
+_Adjacency matrices after 4000 rewirings on an initially randomly connected network. The rewirings are based on the heat diffusion algorithm, the first two adjacency matrices have binary connections (either 0 or 1) and the latter two normally distributed weights. The final connectivity pattern can vary depending on the value of the heat diffusion rate parameter_
 
 2. Summary metrics of the networks that are in the form of adjacency matrices. There are metrics for both binary and weighted undirected networks (symmetric adjacency matrices). The metrics are
 - Path length 
