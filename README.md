@@ -61,8 +61,8 @@ Getting Started
 
 
 Each of the functions is commented and relatively easy to understand. It is highly recommendeded that you go through the 2 jupyter notebooks in the repository. They will walk you through the functions of the code. The two notebooks are: 
-1. [networkInitializationRewiringVisualization.ipynb](https://nbviewer.ipython.org/github/rentzi/testing/blob/master/networkInitializationRewiringVisualization.ipynb) gives examples on how to initialize networks (adjacency matrices), rewire them with the 3 different algorithms and visualize them
-2. [networkMetrics.ipynb](https://nbviewer.ipython.org/github/rentzi/testing/blob/master/networkMetrics.ipynb) gives examples on how to get the different summary metrics of a network
+1. [networkInitializationRewiringVisualization.ipynb](https://nbviewer.ipython.org/github/rentzi/netRewireAnalyze/blob/master/networkInitializationRewiringVisualization.ipynb) gives examples on how to initialize networks (adjacency matrices), rewire them with the 3 different algorithms and visualize them
+2. [networkMetrics.ipynb](https://nbviewer.ipython.org/github/rentzi/netRewireAnalyze/blob/master/networkMetrics.ipynb) gives examples on how to get the different summary metrics of a network
 
 
 
