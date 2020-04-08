@@ -10,7 +10,7 @@ netRewireAnalyze: A package implementing rewiring models and summary metrics on 
 **Right** _Network representation of the anatomical connections with the numbers indicating the strengths of the connection_
 
 
-I wrote this package while working on a project on adaptive rewiring and learning that eventually culminated in the following paper:\
+I wrote this package while working on a project on adaptive rewiring and learning that culminated in the following paper:\
 Rentzeperis, I., van Leeuwen, C. [Adaptive rewiring evolves brain-like structure in weighted networks.](https://www.nature.com/articles/s41598-020-62204-7)Sci Rep 10, 6075 (2020).\
 You can freely use the code; please cite the paper if you do so.  
 
@@ -25,7 +25,7 @@ This package contains modules that implement the following:
 
 <img align="center" src="./heatDiffusionAdj.png" />
 
-_Adjacency matrices after 4000 rewirings on an initially randomly connected network. The rewirings are based on the heat diffusion algorithm, the first two adjacency matrices have binary connections (either 0 or 1) and the latter two normally distributed weights. The final connectivity pattern can vary depending on the value of the heat diffusion rate parameter_
+_Adjacency matrices after 4000 rewirings on an initially randomly connected network. The rewirings are based on the heat diffusion algorithm, the first two adjacency matrices have binary connections (either 0 or 1) and the latter two normally distributed weights. The final connectivity pattern can vary depending on the value of the rewiring rate parameter_
 
 2. Summary metrics of the networks that are in the form of adjacency matrices. There are metrics for both binary and weighted undirected networks (symmetric adjacency matrices). The metrics are
 - Path length 
