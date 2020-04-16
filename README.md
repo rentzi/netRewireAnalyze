@@ -4,7 +4,7 @@ netRewireAnalyze: A package implementing rewiring models and summary metrics on 
 
 <img align="left" src="./lgn2V1.png" width="850"/>
 
-
+\
 **Left** _Schematic anatomical connections of the lateral geniculate nucleus (LGN) and primary visual cortex processing the visual input_
 
 **Right** _Network representation of the anatomical connections with the numbers indicating the strengths of the connection_
